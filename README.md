@@ -10,7 +10,7 @@ Machine learning models led us to predict credit risk and have more accurate ide
 
 **- Naive Random Oversampling**
 
-IMG
+<img src="https://github.com/Jponce25/Credit_Risk_Analysis/blob/6befc79ae6bd9044628096e02046d6dab5c41bfb/Image/Imagen1.png" width="550">
 
 Balanced Accuracy: 0.6438627638488825 (64.4%)
 
@@ -22,6 +22,8 @@ Conclusion: The model give us a high Recall, while the precision is low for High
 
 **- SMOTE Oversampling**
 
+<img src="https://github.com/Jponce25/Credit_Risk_Analysis/blob/6befc79ae6bd9044628096e02046d6dab5c41bfb/Image/Imagen2.png" width="550">
+
 Balanced Accuracy: 0.6628910844779521 (66.3%)
 
 Precision: 0.01 (1%)
@@ -31,6 +33,8 @@ Recall: 0.63 (63%)
 Conclusion: The model in general has a better performance (66.4%), however, a low precision (1%) and a high recall (63%) are still observed. This model is not the best at predicting properly.
 
 **- Undersampling**
+
+<img src="https://github.com/Jponce25/Credit_Risk_Analysis/blob/6befc79ae6bd9044628096e02046d6dab5c41bfb/Image/Imagen3.png" width="550">
 
 Balanced Accuracy: 0.5442661782548694 (54.4%)
 
@@ -42,6 +46,8 @@ Conclusion: For this model we obtained a lower balanced accuracy (54%) compared 
 
 **- SMOTEENN (Combination Under-Over Sampling)**
 
+<img src="https://github.com/Jponce25/Credit_Risk_Analysis/blob/6befc79ae6bd9044628096e02046d6dab5c41bfb/Image/Imagen4.png" width="550">
+
 Balanced Accuracy: 0.6748328802711889 (67.5%)
 
 Precision: 0.01 (1%)
@@ -52,6 +58,8 @@ Conclusion: Although the accuracy of the model is better compared to the previou
 
 **- Balanced Random Forest Classifier**
 
+<img src="https://github.com/Jponce25/Credit_Risk_Analysis/blob/6befc79ae6bd9044628096e02046d6dab5c41bfb/Image/Imagen5.png" width="550">
+
 Balanced Accuracy: 0.7885466545953005 (78.9%)
 
 Precision: 0.03 (3%)
@@ -61,6 +69,8 @@ Recall: 0.70 (70%)
 Conclusion: Using the Balanced Random Forest Classifier model, it is observed that the accuracy of the model improves notably (78.9%), however, we still have a very low precision (3%). The F1 result is now 0.06 which is slightly better than previous models.
 
 **- Easy Ensemble Classifier**
+
+<img src="https://github.com/Jponce25/Credit_Risk_Analysis/blob/6befc79ae6bd9044628096e02046d6dab5c41bfb/Image/Imagen6.png" width="550">
 
 Balanced Accuracy: 0.9316600714093861 (93.2%)
 
